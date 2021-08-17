@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: lawngreen;
+  font-family: 'Press Start 2P', sans-serif;
+}
+
+.btn {
+  border-radius: 1rem;
+  border: 1;
+  background-color: #fff;
+  color: #516dff;
+  padding: 15px 20px;
+  font-family: inherit;
+  cursor: pointer;
+  margin-left: 5%;
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
+
+.btn:focus {
+  outline: 0;
+}
+
+.cd:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+  padding: 2px 16px;
+}
+
+h4 {
+  text-align: center;
+}
+
+.user {
+  background-color:wheat;
+  width: 39%;
+  height: 35%;
+  padding: 4px;
+  display: flex;
+  align-items: center;
+  border-radius: 1rem;
+  border: solid;
+  border-color: lawngreen;
+}
+
+.fill {
+  background-color: blue;
+  width: 100%;
+  height: 100%;
+}
+
+#red {
+  margin-top: 50px;
+  background-color: red;
+  float: left;
+}
+
+#yellow {
+  margin-top: 50px;
+  background-color: yellow;
+  float: right;
+}
+
+.midd {
+  width: 10%;
+  height: 30%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15%;
+  background-color: blanchedalmond;
+  background-image: url(image/cardBack.jpeg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  border-radius: 1rem;
+  background-size: 100% 100%;
+}
+
+#green {
+  background-color: green;
+  margin-top: 75px;
+  float: left;
+}
+
+#blue {
+  background-color: blue;
+  margin-top: 75px;
+  float: right;
+}
+
+.cd {
+  background-color: rgb(194, 194, 238);
+  width: 100%;
+  height: 100%;
+  border:tomato;
+  border-radius: 1rem;
+  margin-left: 2px;
+  cursor: pointer;
+}
+
+
+.cd2 {
+  background-color: rgb(26, 26, 167);
+  width: 100%;
+  height: 100%;
+  border:tomato;
+  border-radius: 1rem;
+  margin-left:2px;
+  cursor: pointer;
+}
+
+.abc {
+  background-color: rgb(194, 194, 238);
+  width: 25%;
+  height: 85%;
+  border:tomato;
+  border-radius: 1rem;
+  margin-left: 2px;
+  cursor: pointer;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
